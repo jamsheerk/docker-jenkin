@@ -1,7 +1,0 @@
-#!/bin/sh
-
-curl --user jenkins:0e3ce8a17fff0227e2388228c5d82c22 http://http://localhost:8080/job/sampletest/build?token=jamsheertocken
-
-home/docker/Desktop/docker-jenkin/buildExecutable
-
-echo "sample test"
