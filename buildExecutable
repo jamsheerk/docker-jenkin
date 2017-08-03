@@ -1,5 +1,5 @@
 cd /
-docker stop helloworld2
-docker rm helloworld2
-docker build -t hello-world2 var/www/html/Immidart/sampletest/docker-jenkin
-docker run -d --name helloworld2 -p 8882:80 -v /var/www/html/Immidart/sampletest/docker-jenkin/src/:/var/www/html hello-world2
+docker stop helloworld
+docker rm helloworld
+docker build -t hello-world var/www/html/Immidart/sampletes/docker-jenkin
+docker run -d --name helloworld -p 8888:80 -v /var/www/html/Immidart/sampletes/docker-jenkin/src/:/var/www/html hello-world
