@@ -1,7 +1,10 @@
 <?php
 
 
-      echo "hello Jamsheer";
+      echo "Hello World \n";
+	  
+	  $version = phpversion();
+      print $version;
 
  
 
